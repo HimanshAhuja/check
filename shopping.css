@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Redressed', cursive;
+    background-image: url("https://wallpaperaccess.com/full/552581.jpg");
+    color: white;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100vw;
+}
+
+.obesity{
+    color: white;
+    font-size: 5em;
+    margin-right: 8em;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+.img{
+    height: 150px;
+    padding-left: 270px;
+    padding-top: 7px;
+}
+
+li a {
+    list-style-type: none;
+    margin: 0 135px;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+
+li a:hover {
+    background-color: rgb(180, 255, 247);
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.nav1{
+    background-color: turquoise;
+    border: black solid;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    min-height: 60px;
+}
+
+li{
+    list-style: none;
+}
+
+#cart{
+    margin: 40px;
+}
+
+#heading{
+    margin: 10px;
+}
+
+#oats, #spinach, #dal, #almonds, #cheese{
+    border-radius: 20% 20% 20% 20%;
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding-left: 30px;
+}
+
+.main::after{
+    clear: both;
+    display: table;
+    content: icon;
+}
+
+.gif:hover{
+    background-image: url("https://buffer.com/library/content/images/library/wp-content/uploads/2016/06/giphy.gif")
+}
+
+.oatst{
+    position: absolute;
+    justify-content: space-between;
+    padding-top: 305px;
+    padding-left: 45px;
+    font-size: 160%;
+}
+
+.add{
+    position: absolute;
+    padding-top: 338px;
+    padding-left: 105px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+.price{
+    position: absolute;
+    padding-top: 335px;
+    padding-left: 45px;
+}
+
+.spinacht{
+    padding-top: 310px;
+    padding-left: 390px;
+    font-size: 160%;
+}
+
+.add2{
+    position: absolute;
+    padding-left: 27em;
+    padding-bottom: 1000em;
+}
